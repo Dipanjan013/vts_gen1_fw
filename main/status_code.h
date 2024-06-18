@@ -1,0 +1,17 @@
+#ifndef _STATUS_CODE_H_
+#define _STATUS_CODE_H_
+
+typedef enum
+{
+    STATUS_AT_LOCKED = -4,
+    STATUS_TIMEOUT = -3,
+    STATUS_INVALID_ARG = -2,
+    STATUS_FAIL = -1,
+    STATUS_OK = 0,
+    STATUS_SEARCHING_FOR_NETWORK = 1,
+    STATUS_NETWORK_NOT_FOUND = 2,
+    STATUS_SEARCHING_FOR_LOCATION = 3,
+    STATUS_GPS_NOT_FOUND = 4,
+} status_code_t;
+
+#endif

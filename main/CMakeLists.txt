@@ -1,0 +1,10 @@
+idf_component_register(SRCS "app.c"
+                            "./atc/atc.c"
+                            "./port/port_uart.c"
+                            "./modem/modem_cavli.c"
+                            "./service/service_mqtt.c"
+                        INCLUDE_DIRS "."
+                        "./atc"
+                        "./service"
+                        "./port"
+                        "./modem")
